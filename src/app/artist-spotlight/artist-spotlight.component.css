@@ -1,0 +1,67 @@
+.spotlight {
+  margin-top: 30px;
+  margin-bottom: 30px;
+  display: flex;
+  flex-direction: row;
+  /* border: 4px solid rgb(216, 121, 66); */
+}
+
+.spotlight_img {
+  width: 300px;
+  height: 300px;
+}
+
+.spotlight_left {
+  flex: 0.5;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.spotlight_left:hover{
+    transition: all 0.3s ease-in;
+    background-color: aliceblue;
+}
+
+.spotlight_left:hover > .spotlight_title, 
+.spotlight_left:hover > .spotlight_artist,
+.spotlight_left:hover > .spotlight_social {
+    color: #000;
+}
+
+.spotlight_right {
+  flex: 0.5;
+  display: flex;
+  flex-direction: column;
+}
+
+.spotlight_title {
+  font-size: 3vw;
+}
+
+.spotlight_artist {
+  font-size: 5vw;
+  text-decoration: underline;
+  text-decoration-color: aqua;
+}
+.spotlight_title,
+.spotlight_artist {
+  text-align: center;
+  color: #fff;
+}
+
+.spotlight_social {
+    margin-top: 10px;
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    justify-content: center;
+    color: #fff;
+}
+
+@media only screen and ( max-width: 500px){
+    .spotlight{
+        flex-direction: column;
+        gap: 10px;
+    }
+}

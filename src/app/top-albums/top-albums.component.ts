@@ -6,6 +6,8 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./top-albums.component.css'],
 })
 export class TopAlbumsComponent implements OnInit {
+
+  title: string = 'Trending Albums';
   topAlbums: any[] = [
     {
       name: 'Un Verano Sin Ti',

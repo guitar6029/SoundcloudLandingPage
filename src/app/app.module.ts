@@ -10,6 +10,10 @@ import { TrendingPlaylistsComponent } from './trending-playlists/trending-playli
 import { HttpClientModule } from '@angular/common/http';
 import { TopArtistsComponent } from './top-artists/top-artists.component';
 import { TopAlbumsComponent } from './top-albums/top-albums.component';
+import { SearchComponent } from './search/search.component';
+import { NavComponent } from './nav/nav.component';
+import { CreatorsBannerComponent } from './creators-banner/creators-banner.component';
+import { ArtistSpotlightComponent } from './artist-spotlight/artist-spotlight.component';
 
 @NgModule({
   declarations: [
@@ -19,7 +23,11 @@ import { TopAlbumsComponent } from './top-albums/top-albums.component';
     SignupComponent,
     TrendingPlaylistsComponent,
     TopArtistsComponent,
-    TopAlbumsComponent
+    TopAlbumsComponent,
+    SearchComponent,
+    NavComponent,
+    CreatorsBannerComponent,
+    ArtistSpotlightComponent
   ],
   imports: [
     BrowserModule,

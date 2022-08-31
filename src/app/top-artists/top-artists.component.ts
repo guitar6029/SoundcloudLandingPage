@@ -8,6 +8,7 @@ import { SoundcloudDataService } from '../soundcloud-data.service';
 })
 export class TopArtistsComponent implements OnInit {
 
+  title : string = 'Trending Artists';
 
   topArtists : any [] = [
     { 

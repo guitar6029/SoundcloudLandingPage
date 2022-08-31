@@ -1,10 +1,11 @@
-
-<div class="trending_artists">
-    <h3>Trending Artists</h3>
-    <div class="artists_container">
-        <div class="artist_card" *ngFor="let artist of topArtists">
-            <img src="{{artist.image}}" alt="{{artist.name}}">
-            <div class="artist_name"><span>{{artist.name}}</span></div>
-        </div>
+<section class="section_container">
+  <h3 class="section_title">{{ title }}</h3>
+  <div class="flex_container_row">
+    <div class="card" *ngFor="let artist of topArtists">
+      <img src="{{ artist.image }}" alt="{{ artist.name }}" />
+      <div class="card_description">
+        <span>{{ artist.name }}</span>
+      </div>
     </div>
-</div>
+  </div>
+</section>

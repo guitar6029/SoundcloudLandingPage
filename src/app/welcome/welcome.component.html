@@ -1,34 +1,13 @@
 <div class="container">
-  <header>
-    <img
-      class="header_img"
-      src="https://a-v2.sndcdn.com/assets/images/sc_landing_header_web_a@2x-cc048a7f.jpg"
-      alt=""
-    />
-    <nav class="main_nav">
-      <div class="main_nav_left">
-        <img
-          class="logo"
-          src="https://d12nlb6renn3r2.cloudfront.net/customer_assets/soundcloud/sc-logo-horizontal-white.svg"
-          alt=""
-        />
-      </div>
-      <div class="main_nav_right">
-        <a routerLink="/login">Login</a>
-        <a routerLink="/signup">Sign up</a>
-      </div>
-    </nav>
-  </header>
-  <div class="search">
-    <div>
-      <input type="text" />
-      <i class="fa-solid fa-magnifying-glass"></i>
-    </div>
-    <div>or</div>
-    <div>
-      <a href="">Upload your own</a>
-    </div>
-  </div>
-   <app-top-artists></app-top-artists>
-   <app-top-albums></app-top-albums>
+  <img
+    class="main_img"
+    src="https://a-v2.sndcdn.com/assets/images/sc_landing_header_web_a@2x-cc048a7f.jpg"
+    alt=""
+  />
+  <app-nav></app-nav>
+  <app-search></app-search>
+  <app-top-artists></app-top-artists>
+  <app-top-albums></app-top-albums>
+  <app-creators-banner></app-creators-banner>
+  <app-artist-spotlight></app-artist-spotlight>
 </div>

@@ -1,9 +1,11 @@
-<div class="trending_albums">
-    <h3>Trending Albums</h3>
-    <div class="albums_container">
-        <div class="album_card" *ngFor="let album of topAlbums">
-            <img src="{{album.image}}" alt="{{album.name}}">
-            <div class="album_name"><span>{{album.name}}</span></div>
-        </div>
+<div class="section_container">
+  <h3 class="section_title">{{ title }}</h3>
+  <div class="flex_container_row">
+    <div class="card" *ngFor="let album of topAlbums">
+      <img src="{{ album.image }}" alt="{{ album.name }}" />
+      <div class="card_description">
+        <span>{{ album.name }}</span>
+      </div>
     </div>
+  </div>
 </div>
