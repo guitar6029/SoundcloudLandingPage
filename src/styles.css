@@ -1,4 +1,4 @@
-
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;700&display=swap');
 
 *{
     margin: 0;
@@ -10,6 +10,7 @@ a{
 }
 
 body{
+    font-family: "Robot", sans-serif;
     --soundcloud-color: #e25c2b;
     --main-link-primary-color : #fff;
     --main-link-secondary-color: #000;

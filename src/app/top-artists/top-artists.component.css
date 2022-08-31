@@ -1,0 +1,19 @@
+
+.artists_container{
+    display: flex;
+    flex-direction: row;
+    overflow-x: hidden;
+    flex-wrap: nowrap;
+    gap: 10px;
+    text-align: center;
+    font-size: 15px;
+}
+
+.artist_card{
+    overflow-x: hidden;
+    flex-wrap: nowrap;
+}
+
+.artist_card > img{
+    border-radius: 50%;
+}

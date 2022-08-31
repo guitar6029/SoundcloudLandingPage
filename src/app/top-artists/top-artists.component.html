@@ -1,0 +1,10 @@
+
+<div>
+    <h3>Trending Artists</h3>
+    <div class="artists_container">
+        <div class="artist_card" *ngFor="let artist of topArtists">
+            <img src="{{artist.image}}" alt="{{artist.name}}">
+            <div>{{artist.name}}</div>
+        </div>
+    </div>
+</div>

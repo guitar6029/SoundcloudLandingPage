@@ -3,22 +3,26 @@ import { BrowserModule } from '@angular/platform-browser';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
-import { WelcomePageComponent } from './welcome-page/welcome-page.component';
+import { WelcomeComponent } from './welcome/welcome.component';
 import { LoginComponent } from './login/login.component';
 import { SignupComponent } from './signup/signup.component';
 import { TrendingPlaylistsComponent } from './trending-playlists/trending-playlists.component';
+import { HttpClientModule } from '@angular/common/http';
+import { TopArtistsComponent } from './top-artists/top-artists.component';
 
 @NgModule({
   declarations: [
     AppComponent,
-    WelcomePageComponent,
+    WelcomeComponent,
     LoginComponent,
     SignupComponent,
-    TrendingPlaylistsComponent
+    TrendingPlaylistsComponent,
+    TopArtistsComponent
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    HttpClientModule
   ],
   providers: [],
   bootstrap: [AppComponent]
