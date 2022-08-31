@@ -1,4 +1,4 @@
-.artists_container{
+.albums_container{
     display: flex;
     flex-direction: row;
     overflow-x: hidden;
@@ -7,10 +7,9 @@
     text-align: center;
     font-size: 15px;
     margin-top: 20px;
-    
 }
 
-.artist_card{
+.album_card{
     overflow-x: hidden;
     flex-wrap: nowrap;
     width: 200px;
@@ -18,29 +17,29 @@
     cursor: pointer;
 }
 
-.artist_card:hover{
+.album_card:hover{
     opacity: 0.9;
     
 }
 
-.artist_card:hover > img {
+.album_card:hover > img {
     border: 3px solid #cd19c1;
 }
 
-.artist_card > img{
+.album_card > img{
     border-radius: 50%;
 }
 
-.artist_name{
+.album_name{
     font-weight: 400;
 }
 
-.trending_artists{
+.trending_albums{
     margin-top: 50px;
-    margin-bottom: 30px;
+    margin-bottom: 20px;
 }
 
-.trending_artists > h3 {
+.trending_albums > h3 {
     font-size: 25px;
     background: var(--soundcloud-color);
     padding-top: 5px;
@@ -48,7 +47,7 @@
     height: 35px;
 }
 
-.trending_artists > h3:hover{
+.trending_albums > h3:hover{
     transition: all 0.2s ease-in;
-    background-color: rgb(194, 40, 224);
+    background-color: rgb(22, 211, 211);
 }

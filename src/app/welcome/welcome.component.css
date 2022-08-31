@@ -63,7 +63,8 @@ header > .header_img {
 }
 
 .search {
-    margin-top: 20px;
+    margin-top: 70px;
+    margin-bottom: 50px;
     display: flex;
     flex-direction: row;
     justify-content: space-around;

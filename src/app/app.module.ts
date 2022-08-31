@@ -9,6 +9,7 @@ import { SignupComponent } from './signup/signup.component';
 import { TrendingPlaylistsComponent } from './trending-playlists/trending-playlists.component';
 import { HttpClientModule } from '@angular/common/http';
 import { TopArtistsComponent } from './top-artists/top-artists.component';
+import { TopAlbumsComponent } from './top-albums/top-albums.component';
 
 @NgModule({
   declarations: [
@@ -17,7 +18,8 @@ import { TopArtistsComponent } from './top-artists/top-artists.component';
     LoginComponent,
     SignupComponent,
     TrendingPlaylistsComponent,
-    TopArtistsComponent
+    TopArtistsComponent,
+    TopAlbumsComponent
   ],
   imports: [
     BrowserModule,

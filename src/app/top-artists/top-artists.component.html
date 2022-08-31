@@ -1,10 +1,10 @@
 
-<div>
+<div class="trending_artists">
     <h3>Trending Artists</h3>
     <div class="artists_container">
         <div class="artist_card" *ngFor="let artist of topArtists">
             <img src="{{artist.image}}" alt="{{artist.name}}">
-            <div>{{artist.name}}</div>
+            <div class="artist_name"><span>{{artist.name}}</span></div>
         </div>
     </div>
 </div>

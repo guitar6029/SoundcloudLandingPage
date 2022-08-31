@@ -1,0 +1,9 @@
+<div class="trending_albums">
+    <h3>Trending Albums</h3>
+    <div class="albums_container">
+        <div class="album_card" *ngFor="let album of topAlbums">
+            <img src="{{album.image}}" alt="{{album.name}}">
+            <div class="album_name"><span>{{album.name}}</span></div>
+        </div>
+    </div>
+</div>
