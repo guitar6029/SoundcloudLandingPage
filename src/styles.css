@@ -1,1 +1,18 @@
-/* You can add global styles to this file, and also import other style files */
+
+
+*{
+    margin: 0;
+    box-sizing: border-box;
+}
+
+a{
+    text-decoration: none;
+}
+
+body{
+    --soundcloud-color: #e25c2b;
+    --main-link-primary-color : #fff;
+    --main-link-secondary-color: #000;
+    --main-icon-color: #ebe7e7;
+    background-color: rgb(242, 238, 238);
+}
