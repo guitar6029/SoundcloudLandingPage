@@ -1,68 +1,74 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;700&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;700&display=swap");
 
-*{
-    margin: 0;
-    box-sizing: border-box;
+* {
+  margin: 0;
+  box-sizing: border-box;
 }
 
-a{
-    text-decoration: none;
+a {
+  text-decoration: none;
 }
 
-body{
-    font-family: "Robot", sans-serif;
-    --soundcloud-color: #e25c2b;
-    --main-link-primary-color : #fff;
-    --main-link-secondary-color: #000;
-    --main-icon-color: #ebe7e7;
-    background-color: rgb(15, 15, 15);
+body {
+  font-family: "Robot", sans-serif;
+  --soundcloud-color: #e25c2b;
+  --section_title_linear_bg: linear-gradient(#e9540a, #e734e7);
+  --main-link-primary-color: #fff;
+  --main-link-secondary-color: #000;
+  --main-icon-color: #ebe7e7;
+  background-color: #1c1a1a;
 }
 
 .flex_container_row {
-    display: flex;
-    flex-direction: row;
-    gap: 10px;
-    text-align: center;
-    font-size: 15px;
-    margin-top: 20px;
-    overflow-x: scroll;
-  }
-  
-  .card {
-    width: 200px;
-    height: 250px;
-    cursor: pointer;
-  }
-  
-  .card:hover {
-    opacity: 0.9;
-  }
-  .card > img {
-    border-radius: 50%;
-  }
-  
-  .card_description {
-    font-weight: 400;
-    color: #fff;
-  }
-  
-  .section_container {
-    display: flex;
-    flex-direction: column;
-    margin-top: 10px;
-    margin-bottom: 30px;
-  }
-  .section_title {
-    font-size: 25px;
-    max-width: 360px;
-    background: var(--soundcloud-color);
-    padding-top: 5px;
-    padding-left: 10px;
-    height: 35px;
-  }
-    
-  .section_title:hover {
-    transition: all 0.2s ease-in;
-    background-color: rgb(194, 40, 224);
-  }
-  
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+  text-align: center;
+  font-size: 15px;
+  margin-top: 20px;
+  overflow-x: scroll;
+}
+
+.card {
+  width: 200px;
+  height: 250px;
+  cursor: pointer;
+}
+
+.card:hover {
+  opacity: 0.9;
+}
+.card > img {
+  border-radius: 50%;
+}
+
+.card_description {
+  margin-top: 5px;
+  font-weight: 500;
+  font-size: 20px;
+  color: #fff;
+}
+
+.card:hover > .card_description {
+  text-decoration: underline;
+}
+
+.section_container {
+  display: flex;
+  flex-direction: column;
+  margin-top: 10px;
+  margin-bottom: 30px;
+}
+.section_title {
+  font-size: 25px;
+  max-width: 360px;
+  background: var(--section_title_linear_bg);
+  padding-top: 5px;
+  padding-left: 10px;
+  height: 35px;
+}
+
+.section_title:hover {
+  transition: all 0.2s ease-in;
+  background-color: rgb(194, 40, 224);
+}

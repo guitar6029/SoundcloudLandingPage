@@ -1,0 +1,81 @@
+.discover {
+  margin-top: 30px;
+  margin-bottom: 30px;
+  width: 100vw;
+  /* margin-left: 10px;
+  margin-right: 10px; */
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  align-items: center;
+}
+
+.discover_img {
+  flex: 0.5;
+}
+
+.discover_img > img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 5px;
+}
+
+.discover_search {
+  position: relative;
+  bottom: 10rem;
+}
+
+.discover_search > input {
+  width: 80vw;
+  height: 40px;
+  border-radius: 5px;
+  padding-left: 10px;
+  border: none;
+  outline: none;
+  background-color: #a1a5a8;
+}
+
+.discover_text {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  flex: 0.5;
+  font-size: 5vw;
+  color: rgb(250, 250, 250);
+}
+
+.listen {
+  margin-top: 10px;
+  display: flex;
+  flex-direction: row;
+  align-self: center;
+  border-radius: 5px;
+  padding: 10px;
+  border: 1px solid gray;
+  /* width: 100px; */
+}
+
+.listen > a {
+  text-align: center;
+  color: var(--soundcloud-color);
+}
+
+.signup {
+  margin-top: 10px;
+  font-size: 4vw;
+}
+
+.signup > span {
+  color: rgb(244, 242, 240);
+}
+
+#you {
+  text-decoration: underline;
+}
+
+.row_1 {
+  display: flex;
+  flex-direction: row;
+}

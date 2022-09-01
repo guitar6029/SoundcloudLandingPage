@@ -36,12 +36,19 @@
 @media screen and (max-width: 700px) {
   .search {
     display: flex;
+    /* padding: 0; */
     flex-direction: column;
     gap: 20px;
+    /* justify-content: center; */
+  }
+
+  .search > a {
+    position: relative;
+    left: -10px;
   }
 
   .search > div > input,
   .search > a {
-    width: 400px;
+    width: 300px;
   }
 }

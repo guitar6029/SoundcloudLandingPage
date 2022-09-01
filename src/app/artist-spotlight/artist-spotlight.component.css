@@ -1,9 +1,29 @@
-.spotlight {
-  margin-top: 30px;
-  margin-bottom: 30px;
+.artist_top {
   display: flex;
   flex-direction: row;
-  /* border: 4px solid rgb(216, 121, 66); */
+  align-items: center;
+  background: var(--section_title_linear_bg);
+  width: 100%;
+}
+
+.artist_top > img {
+  width: 100%;
+  height: 100%;
+}
+
+.artist_bottom {
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+}
+
+.spotlight {
+  margin-top: 60px;
+  margin-bottom: 30px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 30px;
 }
 
 .spotlight_img {
@@ -12,37 +32,39 @@
 }
 
 .spotlight_left {
-  flex: 0.5;
+  width: 600px;
   display: flex;
   flex-direction: column;
   justify-content: center;
 }
 
-.spotlight_left:hover{
-    transition: all 0.3s ease-in;
-    background-color: aliceblue;
+.spotlight_left:hover {
+  transition: all 0.3s ease-in;
+  background-color: aliceblue;
 }
 
-.spotlight_left:hover > .spotlight_title, 
+.spotlight_left:hover > .spotlight_title,
 .spotlight_left:hover > .spotlight_artist,
 .spotlight_left:hover > .spotlight_social {
-    color: #000;
+  color: #000;
 }
 
 .spotlight_right {
-  flex: 0.5;
   display: flex;
   flex-direction: column;
 }
 
 .spotlight_title {
-  font-size: 3vw;
+  font-size: 5vw;
+  letter-spacing: 5px;
+  padding-left: 20px;
+  margin-bottom: 20px;
+  /* background-color: rgb(14, 209, 196); */
 }
 
 .spotlight_artist {
   font-size: 5vw;
-  text-decoration: underline;
-  text-decoration-color: aqua;
+  /* text-decoration: underline; */
 }
 .spotlight_title,
 .spotlight_artist {
@@ -51,17 +73,30 @@
 }
 
 .spotlight_social {
-    margin-top: 10px;
-    display: flex;
-    flex-direction: row;
-    gap: 10px;
-    justify-content: center;
-    color: #fff;
+  margin-top: 10px;
+  margin-bottom: 20px;
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+  justify-content: center;
+  color: #fff;
+  font-size: 20px;
 }
 
-@media only screen and ( max-width: 500px){
-    .spotlight{
-        flex-direction: column;
-        gap: 10px;
-    }
+.spotlight_social > i:hover {
+  color: aqua;
+  cursor: pointer;
+  transition: color 0.2s ease-in;
+}
+.video_container > iframe {
+  width: 500px;
+  height: 415px;
+}
+
+@media only screen and (max-width: 700px) {
+  .spotlight {
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+  }
 }

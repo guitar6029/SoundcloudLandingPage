@@ -14,6 +14,7 @@ import { SearchComponent } from './search/search.component';
 import { NavComponent } from './nav/nav.component';
 import { CreatorsBannerComponent } from './creators-banner/creators-banner.component';
 import { ArtistSpotlightComponent } from './artist-spotlight/artist-spotlight.component';
+import { DiscoverComponent } from './discover/discover.component';
 
 @NgModule({
   declarations: [
@@ -27,7 +28,8 @@ import { ArtistSpotlightComponent } from './artist-spotlight/artist-spotlight.co
     SearchComponent,
     NavComponent,
     CreatorsBannerComponent,
-    ArtistSpotlightComponent
+    ArtistSpotlightComponent,
+    DiscoverComponent
   ],
   imports: [
     BrowserModule,

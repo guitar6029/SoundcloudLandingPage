@@ -53,6 +53,30 @@
   background-color: aliceblue;
 }
 
+.hover_underline {
+  display: inline-block;
+  position: relative;
+  color: #0087ca;
+}
+
+.hover_underline:after {
+  content: '';
+  position: absolute;
+  width: 100%;
+  transform: scaleX(0);
+  height: 6px;
+  bottom: 0;
+  left: 0;
+  background-color: #0087ca;
+  transform-origin: bottom right;
+  transition: transform 0.25s ease-out;
+}
+
+.hover_underline:hover:after {
+  transform: scaleX(1);
+  transform-origin: bottom left;
+}
+
 @media only screen and (min-width: 500px){
     .creators > div{
         position: relative;
