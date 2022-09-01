@@ -15,6 +15,7 @@ import { NavComponent } from './nav/nav.component';
 import { CreatorsBannerComponent } from './creators-banner/creators-banner.component';
 import { ArtistSpotlightComponent } from './artist-spotlight/artist-spotlight.component';
 import { DiscoverComponent } from './discover/discover.component';
+import { ReadyBannerComponent } from './ready-banner/ready-banner.component';
 
 @NgModule({
   declarations: [
@@ -29,7 +30,8 @@ import { DiscoverComponent } from './discover/discover.component';
     NavComponent,
     CreatorsBannerComponent,
     ArtistSpotlightComponent,
-    DiscoverComponent
+    DiscoverComponent,
+    ReadyBannerComponent
   ],
   imports: [
     BrowserModule,

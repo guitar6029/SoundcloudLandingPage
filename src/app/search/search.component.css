@@ -33,6 +33,11 @@
   text-align: center;
 }
 
+.search > a:hover {
+  transition: all 0.2s ease-out;
+  background-color: rgb(233, 138, 37);
+}
+
 @media screen and (max-width: 700px) {
   .search {
     display: flex;

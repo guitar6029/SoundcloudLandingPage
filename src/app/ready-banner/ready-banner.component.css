@@ -1,0 +1,37 @@
+.ready{
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    background-image: url("https://images.unsplash.com/photo-1500462918059-b1a0cb512f1d?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2574&q=80");
+    background-position: center;
+    background-size: cover;
+}
+
+.ready {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    color: #f3f9f9;
+    text-align: center;
+    font-size:  5vw;
+}
+
+.ready > div {
+    width: 50vw;
+}
+
+.ready > div > button {
+    margin-top: 15px;
+   width: inherit;
+   border: none;
+   outline: none;
+   border-radius: 5px;
+   height: 40px;
+   letter-spacing: 2px;
+   font-family: inherit;
+   font-size: 2vw;
+   cursor: pointer;
+   color: #fff;
+   background: linear-gradient(#103dd0, #e113c9); 
+}

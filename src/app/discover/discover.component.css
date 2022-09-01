@@ -53,13 +53,18 @@
   align-self: center;
   border-radius: 5px;
   padding: 10px;
-  border: 1px solid gray;
+  /* border: 1px solid gray; */
   /* width: 100px; */
 }
 
 .listen > a {
   text-align: center;
-  color: var(--soundcloud-color);
+  color: #fff;
+}
+
+.listen:hover{
+  transition: all 0.2s ease-in;
+  background-color: #4e23e7;
 }
 
 .signup {
