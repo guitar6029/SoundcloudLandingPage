@@ -2,7 +2,7 @@
     display: flex;
     flex-direction: column;
     height: 100vh;
-    background-image: url("https://images.unsplash.com/photo-1500462918059-b1a0cb512f1d?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2574&q=80");
+    background-image: url("../../assets/images/photo-1500462918059-b1a0cb512f1d.jpeg");
     background-position: center;
     background-size: cover;
 }
@@ -33,5 +33,6 @@
    font-size: 2vw;
    cursor: pointer;
    color: #fff;
-   background: linear-gradient(#103dd0, #e113c9); 
+   background: transparent;
+   /* background: linear-gradient(#103dd0, #e113c9);  */
 }

@@ -1,6 +1,6 @@
 .creators {
   flex-direction: column;
-  background-image: url(https://images.unsplash.com/photo-1581368087049-7034ed0d1e6f?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MjZ8fGNyZWF0b3J8ZW58MHx8MHx8&auto=format&fit=crop&w=1000&q=60);
+  background-image: url('../../assets/images/photo-1581368087049-7034ed0d1e6f.jpeg');
   height: 100vh;
   background-size: contain;
   background-repeat: no-repeat;

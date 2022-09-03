@@ -19,7 +19,6 @@ a {
   background-color: rgb(120, 119, 119);
 }
 
-
 body {
   font-family: "Robot", sans-serif;
   --soundcloud-color: #e25c2b;
@@ -55,7 +54,6 @@ body {
   width: 350px;
   height: 250px;
   cursor: pointer;
-  
 }
 
 .card:hover {
@@ -67,12 +65,10 @@ body {
 }
 
 .card > img {
-  
   border-radius: 50%;
 }
 
 .card_description {
-  
   /* margin-top: 5px; */
   font-weight: 500;
   font-size: 20px;
@@ -85,12 +81,12 @@ body {
 } */
 
 .text_color_1 {
-  color: #4E5166;
+  color: #4e5166;
 }
 
 .text_color_2 {
   /* color: rgb(247, 247, 244); */
-  color: #EDAFB8;
+  color: #edafb8;
 }
 
 .section_container {
