@@ -1,6 +1,26 @@
+@import url('https://fonts.googleapis.com/css2?family=Cedarville+Cursive&display=swap');
 .container {
   height: 100vh;
   display: flex;
   flex-direction: column;
 }
 
+
+.main-text{
+  display: flex;
+  flex-direction: row;
+  align-self: center;
+  position: relative;
+  top: 20px;
+}
+
+.landing_image_text{
+  /* font-family: 'Cedarville Cursive', cursive; */
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  color: #fff;
+  /* position: absolute; */
+  font-size: 5vw;
+  /* top: 10vh;
+  margin: 0 auto; */
+  text-align: center;
+}
