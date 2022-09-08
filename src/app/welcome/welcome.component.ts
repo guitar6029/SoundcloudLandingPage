@@ -1,5 +1,5 @@
 import { Component, OnInit } from '@angular/core';
-import { SoundcloudDataService } from '../soundcloud-data.service';
+
 
 
 @Component({
@@ -10,14 +10,11 @@ import { SoundcloudDataService } from '../soundcloud-data.service';
 export class WelcomeComponent implements OnInit {
 
   myData: any;
-  constructor(private soundcloud_data: SoundcloudDataService) {
+  constructor() {
   }
   
   ngOnInit(): void {
-    this.soundcloud_data.getData().subscribe((data) => {
-      this.myData = data;
-      console.log(this.myData);
-    });
+    
   }
 
 }

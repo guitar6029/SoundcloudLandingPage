@@ -1,6 +1,6 @@
 .creators {
   flex-direction: column;
-  background-image: url('../../assets/images/photo-1581368087049-7034ed0d1e6f.jpeg');
+  background-image: url("/assets/images/photo-1581368087049-7034ed0d1e6f.jpeg");
   height: 100vh;
   background-size: contain;
   background-repeat: no-repeat;
@@ -24,9 +24,9 @@
 }
 
 .creators > div > img {
-    position: relative;
-    width: 200px;
-    height: 200px;
+  position: relative;
+  width: 200px;
+  height: 200px;
 }
 
 .creator_desription {
@@ -60,7 +60,7 @@
 }
 
 .hover_underline:after {
-  content: '';
+  content: "";
   position: absolute;
   width: 100%;
   transform: scaleX(0);
@@ -77,12 +77,11 @@
   transform-origin: bottom left;
 }
 
-@media only screen and (min-width: 500px){
-    .creators > div{
-        position: relative;
-        top: 10%;
-        left: 10%;
-        width: 400px;
-    }  
-
-} 
+@media only screen and (min-width: 500px) {
+  .creators > div {
+    position: relative;
+    top: 10%;
+    left: 10%;
+    width: 400px;
+  }
+}
